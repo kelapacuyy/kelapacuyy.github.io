@@ -59,7 +59,7 @@
       <article class="about active" data-page="about">
 
         <header>
-            <h2 class="h2 article-title">Sentiment Analysis Model for Indonesia's <br> 2024 Presidential Candidates Using SVM</h2>
+            <h2 class="h2 article-title">Sentiment Analysis Model for <br> Indonesia's 2024 Presidential Candidates <br> Using SVM</h2>
         </header>
     
         <section class="about-text">
@@ -115,7 +115,7 @@
                     <p class="timeline-text">
                         Data was collected through scraping using the <a href="https://pypi.org/project/ntscraper/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: hsl(265, 54%, 58%); display: inline;">Nitter library</a> and <a href="https://apify.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: hsl(265, 54%, 58%); display: inline;">Apify web</a>, resulting in approximately <strong>1300-1400 tweets</strong> per candidate after removing duplicate data.
                     </p>
-                </li>
+                </li><br>
     
                 <li class="timeline-item"> <!-- Cleaning -->
                   <h4 class="h4 timeline-item-title">Data Cleaning</h4>
@@ -134,7 +134,7 @@
                   <p class="timeline-text">
                     As a result, the number of records for each candidate was reduced: <br> Candidate 01 from 1371 to 1286, Candidate 02 from 1403 to 1199, and Candidate 03 from 1406 to 1286.
                   </p>
-                </li>
+                </li><br>
                 
                 <li class="timeline-item"> <!-- Labeling -->
                   <h4 class="h4 timeline-item-title">Data Labeling</h4>
@@ -164,7 +164,7 @@
                     After exploring and comparing the three techniques, <strong>manual labeling was chosen.</strong> <br> 
                     It was considered more effective because it allows for more accurate contextual understanding, better handles ambiguity, offers flexibility and customization according to the specific needs of the project, and produces higher-quality data.<br><br>
                   </p>
-                </li>
+                </li><br>
     
                 <li class="timeline-item"> <!-- Tokenizing -->
                     <h4 class="h4 timeline-item-title">Tokenizing</h4>
@@ -205,7 +205,7 @@
                       After exploration, we discovered several words that provided little meaningful information. As a result, additional words such as "memang, ia, pas, kok, sih, kan, dr, si" and others were added to the stopword list.
                     </p>
                     <img src="../assets/images/project2/extend_stopwords.jpeg" alt="extended stopwords" loading="lazy" style="border-radius: 10px; width: 70%; height: auto; margin: 10px 0;">
-                </li>
+                </li><br>
 
                 <li class="timeline-item"> <!-- Feature Extraction -->
                   <h4 class="h4 timeline-item-title">Feature Extraction</h4>
@@ -220,7 +220,7 @@
                     <strong>Data after TF-IDF</strong>
                   </p>
                   <img src="../assets/images/project2/after_tfidf.jpeg" alt="after tf-idf" loading="lazy" style="border-radius: 10px; width: 95%; height: auto; margin: 10px 0;">
-              </li>
+              </li><br>
     
                 <li class="timeline-item"> <!-- Modeling -->
                     <h4 class="h4 timeline-item-title">Modeling Using SVM Algorithm</h4>
@@ -232,7 +232,7 @@
                       After building the model, hyperparameter tuning is conducted. Hyperparameter tuning refers to the process of finding the best combination of parameters to improve model performance. This is done using GridSearchCV, with parameters <code>C</code>, <code>gamma</code>, and <code>kernel</code> set to <code>rbf</code>.
                     </p>
                     <img src="../assets/images/project2/tuning.jpeg" alt="hyperparameter tuning" loading="lazy" style="border-radius: 10px; width: 65%; height: auto; margin: 10px 0;">
-                    <p class="timeline-text">
+                    <p class="timeline-text"><br>
                 </li>
     
                 <li class="timeline-item"> <!-- Evaluation -->
