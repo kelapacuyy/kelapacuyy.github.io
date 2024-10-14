@@ -140,13 +140,11 @@
           </li>
 
           <li class="navbar-item">
-            <!-- <button class="navbar-link" data-nav-link>Portfolio</button> -->
-            <button class="navbar-link" onclick="alert('Under Maintenance!')">Portfolio</button>
+            <button class="navbar-link" data-nav-link>Writeups</button>
           </li>
 
           <li class="navbar-item">
-            <!-- <button class="navbar-link" data-nav-link>Writeups</button> -->
-            <button class="navbar-link" onclick="alert('Under Maintenance!')">Writeups</button>
+            <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
 
         </ul>
@@ -241,10 +239,6 @@
             </button>
 
             <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
               <img src="./assets/images/icon-quote.svg" alt="quote icon">
             </div>
 
@@ -438,9 +432,49 @@
 
       </article>
 
+      <!--
+        - #WRITEUPS
+      -->
 
+      <article class="writeups" data-page="writeups">
 
+        <header>
+          <h2 class="h2 article-title">Writeups</h2>
+        </header>
 
+        <section class="writeups-posts">
+
+          <ul class="writeups-posts-list">
+
+            <li class="writeups-post-item">
+              <a href="https://medium.com/@dhianitas/wargames-my-2023-writeup-for-forensic-misc-and-ppc-900f2b5d054e">
+
+                <figure class="writeups-banner-box">
+                  <img src="./assets/images/wu_1.png" alt="Wargames.MY 2023" loading="lazy">
+                </figure>
+
+                <div class="writeups-content">
+
+                  <div class="writeups-meta">
+                    <p class="writeups-category">For, Misc, PPC</p>
+                  </div>
+
+                  <h3 class="h3 writeups-item-title">Wargames.MY 2023</h3>
+
+                  <p class="writeups-text">
+                    Solved 1 forensics, 1 miscellaneous, and 2 PPC (programming) challenges
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
 
       <!--
         - #PORTFOLIO
@@ -461,15 +495,11 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Cyber Security</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>AI/ML</button>
             </li>
 
           </ul>
@@ -493,15 +523,11 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Cyber Security</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>AI/ML</button>
               </li>
 
             </ul>
@@ -510,164 +536,38 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="cyber security">
+              <a href="https://drive.google.com/file/d/1eQPcEclOGOzLbAfaeGIZ_A70etLOsZfA/view">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/project_1.png" alt="cybersecurity" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Malware Incident Response Plan</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Cyber Security</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
+              <a href="./porto/analisis_sentimen.html">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/project_2.png" alt="ai/ml" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Sentiment Analysis of Indonesia's 2024 Presidential Candidates Using SVM</h3>
 
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
+                <p class="project-category">AI/ML</p>
 
               </a>
             </li>
@@ -678,197 +578,6 @@
 
       </article>
 
-
-
-
-
-      <!--
-        - #WRITEUPS
-      -->
-
-      <article class="writeups" data-page="writeups">
-
-        <header>
-          <h2 class="h2 article-title">Writeups</h2>
-        </header>
-
-        <section class="writeups-posts">
-
-          <ul class="writeups-posts-list">
-
-            <li class="writeups-post-item">
-              <a href="#">
-
-                <figure class="writeups-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="writeups-content">
-
-                  <div class="writeups-meta">
-                    <p class="writeups-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 writeups-item-title">Design conferences in 2022</h3>
-
-                  <p class="writeups-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="writeups-post-item">
-              <a href="#">
-
-                <figure class="writeups-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="writeups-content">
-
-                  <div class="writeups-meta">
-                    <p class="writeups-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 writeups-item-title">Best fonts every designer</h3>
-
-                  <p class="writeups-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="writeups-post-item">
-              <a href="#">
-
-                <figure class="writeups-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="writeups-content">
-
-                  <div class="writeups-meta">
-                    <p class="writeups-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 writeups-item-title">Design digest #80</h3>
-
-                  <p class="writeups-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="writeups-post-item">
-              <a href="#">
-
-                <figure class="writeups-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="writeups-content">
-
-                  <div class="writeups-meta">
-                    <p class="writeups-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 writeups-item-title">UI interactions of the week</h3>
-
-                  <p class="writeups-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="writeups-post-item">
-              <a href="#">
-
-                <figure class="writeups-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="writeups-content">
-
-                  <div class="writeups-meta">
-                    <p class="writeups-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 writeups-item-title">The forgotten art of spacing</h3>
-
-                  <p class="writeups-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="writeups-post-item">
-              <a href="#">
-
-                <figure class="writeups-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="writeups-content">
-
-                  <div class="writeups-meta">
-                    <p class="writeups-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 writeups-item-title">Design digest #79</h3>
-
-                  <p class="writeups-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
 
     </div>
 
