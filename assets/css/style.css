@@ -1064,6 +1064,22 @@ main {
   line-height: 1.6;
 }
 
+.writeups-post-item.more-writeups {
+  grid-column: 1 / -1;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.writeups-post-item.more-writeups .writeups-content {
+  display: inline-block;
+}
+
+.writeups-post-item.more-writeups h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+
 
 /*-----------------------------------*\
   #RESPONSIVE
